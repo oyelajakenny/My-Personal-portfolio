@@ -224,10 +224,16 @@ hr {
  
 }
 
+.project:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 8, 0, 0.5);
+}
+
 .project img {
   width: 100%;
   height: auto;
   opacity: 5;
+  
 }
 .project img:hover {
   opacity: 0.5;
